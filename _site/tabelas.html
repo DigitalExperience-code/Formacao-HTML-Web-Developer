@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table{
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(240,240,240,1);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(240,240,240,1);
+        box-shadow: 10px 10px 5px 0px rgba(240,240,240,1);
+        border: solid 1 px;
+        }
+        table thead th{
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+        }
+        table tfoot td{
+            background-color: lightgray;
+        }
+        table tbody tr:nth-child(even) td{
+            background-color: rgb(242, 248, 248);
+        }
+        table tbody tr:hover td{
+            background-color: rgb(226, 226, 226);
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela Idade</h1>
+    <table width="350" cellspacing="5">
+        <caption>Tabela de Idade dos alunos MBA</caption>
+        <thead>
+            <tr>
+                <th title="Nome Completo">Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sofia Castro</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>Lucas Mendes</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>Isabella Santos</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <td>Miguel Oliveira</td>
+                <td>46</td>
+            </tr>
+            <tr>
+                <td>Gabriela Costa</td>
+                <td>48</td>
+            </tr>
+            <tr>
+                <td>Enzo Silva</td>
+                <td>58</td>
+            </tr>
+            <tr>
+                <td>Júlia Almeida</td>
+                <td>39</td>
+            </tr>
+            <tr>
+                <td>Pedro Carvalho</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>Alice Rodrigues</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Carlos Santos</td>
+                <td>34</td></tr>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Média</td>
+                <td>39,8</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

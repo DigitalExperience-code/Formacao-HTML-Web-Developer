@@ -20,9 +20,22 @@
         <p>Bebida</p>
         <input type="radio" name="bebida" value="suco">Suco<br>
         <input type="radio" name="bebida" value="refrigerente">Refrigerante<br>
-        <input type="radio" name="bebida" value="agua">Agua<br>
-        <input type="radio" name="bebida" value="nenhum">Nenhum<br><br>
+        <input type="radio" name="bebida" value="agua">Água<br>
+        <input type="radio" name="bebida" value="nenhum">Nenhum<br>
+        <p><b>Pagamento</b></p>
+        <label>Selecione a forma de pagamento</label>
+        <select name="role">
+            <option value="Credito">Cartão de Crédito</option>
+            <option value="Debito">Cartão de Débito</option>
+            <option value="Dinheiro">Dinheiro</option>
+            <option value="Pix">Pix</option>
+            <option value="Vale Refeição">Vale Refeição</option>
+            </select><br>
+        <p><b>Mensagem</b></p>
+        <label>Use para incluir alguma observação</label><br><br>
+        <textarea rows="10" cols="50" name="message"></textarea><br><br>
         <button type="submit">Enviar Pedido</button>
+        
     </form>
 </body>
 </html>
