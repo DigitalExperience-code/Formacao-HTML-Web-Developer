@@ -66,6 +66,10 @@ body {
     text-align: center;
     color: #DB7093;
 }
+a{
+    color: #DB7093;
+    text-decoration:none
+}
 #imgpos {
 	position: absolute;
     right: 0px;
@@ -85,6 +89,7 @@ body {
     }
     table tfoot td{
         background-color: lightgray;
+
     }
     table tbody tr:nth-child(even) td{
         background-color: rgb(242, 248, 248);
@@ -92,4 +97,8 @@ body {
     }
     table tbody tr:hover td{
         background-color: rgb(226, 226, 226);
+    }
+    table tbody td{
+        text-align: center;     /* alinhamento horizontal */
+        vertical-align: middle; /* alinhamento vertical */
     }
