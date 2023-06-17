@@ -8,14 +8,17 @@
     <link rel="stylesheet" href="base.css">
 </head>
 <body>
-    <div class="header"></div>
+    <div class="header">
+        
+    </div>
     <div class="wrapper">
         <div class="menu">
             <!-- Aqui vai o seu menu -->
+            <img src="beauty.png" alt="topo" width="300">
             <nav>
                 <ul>
                     <li><a href="index.html">Página Principal</a></li>
-                    <li><a href="about.html">Sobre a clínica</a></li>
+                    <li><a href="about.html">Sobre a Clínica</a></li>
                     <li><a href="operation.html">Horário de Atendimento</a></li>
                     <li><a href="contact.html">Contato</a></li>
                 </ul>
@@ -23,20 +26,34 @@
         </div>
 
         <div class="main">
-            <div class="header">
-                <!-- Aqui vai o seu header -->
-                <img src="logo.png" alt="1" width="100">
-            </div>
+            <div class="header"> <!-- Aqui vai o seu header -->
+                <h2>Contato</h2>
+                <p><img src="img_04.png" alt="img_04" width="100px"></p>
+              </div>
     
-            <div class="content">
-                Content
-                <!-- Aqui vai o seu conteúdo -->
-            </div>
+              <div class="content">
+                <form action="/enviar-contato" method="POST">
+                  <h2>Formulário de Contato</h2>
+                  <label for="nome">Nome:</label><br>
+                  <input type="text" id="nome" name="nome" required><br>
+                  
+                  <label for="email">Email:</label><br>
+                  <input type="email" id="email" name="email" required><br>
+                  
+                  <label for="mensagem">Mensagem:</label><br>
+                  <textarea id="mensagem" name="mensagem" rows="5" cols="21" required></textarea><br><br>
+                  
+                  <input type="submit" value="Enviar">
+                </form>
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1836.7439479401269!2d-43.18417284581587!3d-22.969079703127786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd523d20f9c53%3A0x693c6132635e6b0d!2sCopacabana%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1686975696572!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
     
-            <div class="footer">
-                Footer
-                <!-- Aqui vai o seu rodapé -->
-            </div>
+            <div class="footer"><!-- Aqui vai o seu rodapé -->
+                <p>Venha no fazer uma visita</p>
+                <p>Av. Nossa Sra. de Copacabana, 195 - 222 - Copacabana</p>
+                <p>Rio de Janeiro - RJ, 22050-002</p>
+          </div>
         </div>
     </div>
 </body>
